@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+     var clicksLike = 0;
+    function myFunction() {
+
+        clicksLike += 1;
+        document.getElementById("demo").innerHTML = clicksLike;
+    }
+        var clicksLike = 0;
+    function myFunction() {
+
+        clicksLike += 1;
+        document.getElementById("demo").innerHTML = clicksLike;
+}
+</script>
+</head>
+<body>
+
+<p>Click the button to trigger a function.</p>
+
+<button onclick="myFunction()">Like</button>
+<p id="demo"></p>
+<script>
+        var clicksDisLike = 0;
+    function myFunctionDis() {
+
+        clicksDisLike += 1;
+        document.getElementById("demo2").innerHTML = clicksDisLike;
+    }
+        var clicksDisLike = 0;
+    function myFunctionDis() {
+
+        clicksDisLike += 1;
+        document.getElementById("demo2").innerHTML = clicksDisLike;
+    }
+   </script>
+<button onclick="myFunctionDis()">Dislike</button>
+
+<p id="demo2"></p>
+
+
+</body>
+</html>
